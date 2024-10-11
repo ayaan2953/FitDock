@@ -49,23 +49,23 @@ const page = () => {
                   width={144}
                   height={144}
                 />
-                <p>Price: ₹9999</p>
+                <p className="text-gray-300">Price: ₹9999</p>
               </div>
               <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                 <Image src="/img3.webp" alt="" width={144} height={144}></Image>
-                <p>Price: ₹9999</p>
+                <p className="text-gray-300">Price: ₹9999</p>
               </div>
               <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                 <Image src="/img4.webp" alt="" width={144} height={144}></Image>
-                <p>Price: ₹9999</p>
+                <p className="text-gray-300">Price: ₹9999</p>
               </div>
               <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                 <Image src="/img2.webp" alt="" width={144} height={144}></Image>
-                <p>Price: ₹9999</p>
+                <p className="text-gray-300">Price: ₹9999</p>
               </div>
               <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                 <Image src="/img5.webp" alt="" width={144} height={144}></Image>
-                <p>Price: ₹9999</p>
+                <p className="text-gray-300">Price: ₹9999</p>
               </div>
             </div>
             <div className="flex flex-col justify-between mt-10">
@@ -77,7 +77,7 @@ const page = () => {
                     width={144}
                     height={144}
                   ></Image>
-                  <p>Price: ₹9999</p>
+                  <p className="text-gray-300">Price: ₹9999</p>
                 </div>
                 <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                   <Image
@@ -86,7 +86,7 @@ const page = () => {
                     width={144}
                     height={144}
                   ></Image>
-                  <p>Price: ₹9999</p>
+                  <p className="text-gray-300">Price: ₹9999</p>
                 </div>
                 <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                   <Image
@@ -95,7 +95,7 @@ const page = () => {
                     width={144}
                     height={144}
                   ></Image>
-                  <p>Price: ₹9999</p>
+                  <p className="text-gray-300">Price: ₹9999</p>
                 </div>
                 <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                   <Image
@@ -104,7 +104,7 @@ const page = () => {
                     width={144}
                     height={144}
                   ></Image>
-                  <p>Price: ₹9999</p>
+                  <p className="text-gray-300">Price: ₹9999</p>
                 </div>
                 <div className="w-36 h-44 border-2 hover:animate-pulse hover:cursor-pointer hover:shadow-2xl">
                   <Image
@@ -113,7 +113,7 @@ const page = () => {
                     width={144}
                     height={144}
                   ></Image>
-                  <p>Price: ₹9999</p>
+                  <p className="text-gray-300">Price: ₹9999</p>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@ const page = () => {
                 width={300}
                 height={300}
               ></Image>
-              <h2 className="font-semibold text-xl mb-2 flex flex-col items-center py-4">
+              <h2 className="text-gray-300 font-semibold text-xl mb-2 flex flex-col items-center py-4">
                 Shivani
               </h2>
             </div>
@@ -159,7 +159,7 @@ const page = () => {
                 width={300}
                 height={300}
               ></Image>
-              <h2 className="font-semibold text-xl mb-2 flex flex-col items-center py-4">
+              <h2 className="text-gray-300 font-semibold text-xl mb-2 flex flex-col items-center py-4">
                 Sachin
               </h2>
             </div>
@@ -172,7 +172,7 @@ const page = () => {
                 width={300}
                 height={300}
               ></Image>
-              <h2 className="font-semibold text-xl mb-2 flex flex-col items-center py-4">
+              <h2 className="text-gray-300 font-semibold text-xl mb-2 flex flex-col items-center py-4">
                 Vansh
               </h2>
             </div>
